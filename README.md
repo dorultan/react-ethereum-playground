@@ -57,5 +57,6 @@ If possible, yes. I would like to add things like:
 - Boilerplate for calling the methods of the contract in React ('cause right now it's just plain reactjs)
 - Handler of multiple contracts
 - Boilerplate in other frameworks like NextJS or GatsbyJS
+- Easy `npx` script that creates the dir
 
 Any requests? Message me and I'll try my best to provide it or better, create a pull request!
