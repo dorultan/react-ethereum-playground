@@ -6,7 +6,7 @@ const buildPath = path.resolve(__dirname, 'build');
 fs.removeSync(buildPath);
 
 // NOTE: Change contract file/name if needed
-const contractPath = path.resolve(__dirname, 'contracts', 'Contract.sol');
+const contractPath = path.resolve(__dirname, 'contracts', 'Cash.sol');
 const source = fs.readFileSync(contractPath, 'utf8');
 const output = solc.compile(source, 1).contracts;
 

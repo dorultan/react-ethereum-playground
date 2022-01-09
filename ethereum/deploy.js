@@ -2,7 +2,7 @@ const HDWalletProvider = require('truffle-hdwallet-provider');
 const Web3 = require('web3');
 
 // NOTE: Change contract file name when needed
-const compiledContract = require('./build/Contract.json');
+const compiledContract = require('./build/Cash.json');
 require('dotenv').config();
 
 // Create a provider to give to web3
